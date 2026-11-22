@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M A Obaeed | Data Analytics, NLP Research &amp; CSE Portfolio</title>
+  <meta
+    name="description"
+    content="Official portfolio of M A Obaeed, a Computer Science & Engineering student at BRAC University focused on Data Analytics, Python, SQL, Power BI, dialectal Bangla NLP research, and software projects."
+  />
+  <meta name="author" content="M A Obaeed" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://obaeedma.github.io/" />
+
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="M A Obaeed | Data Analytics, NLP Research &amp; CSE Portfolio" />
+  <meta
+    property="og:description"
+    content="CSE student at BRAC University working on Data Analytics, Python, SQL, Power BI, applied ML, and dialectal Bangla NLP research."
+  />
+  <meta property="og:url" content="https://obaeedma.github.io/" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="M A Obaeed | Data Analytics, NLP Research &amp; CSE Portfolio" />
+  <meta
+    name="twitter:description"
+    content="Data Analytics, Python, SQL, Power BI, dialectal Bangla NLP research, and software projects by M A Obaeed."
+  />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://obaeedma.github.io/#person",
+    "name": "M A Obaeed",
+    "url": "https://obaeedma.github.io/",
+    "description": "Computer Science & Engineering student at BRAC University focused on Data Analytics, Python, SQL, Power BI, applied Machine Learning, and dialectal Bangla NLP research.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dhaka",
+      "addressCountry": "BD"
+    },
+    "affiliation": {
+      "@type": "Organization",
+      "name": "BRAC University"
+    },
+    "knowsAbout": [
+      "Data Analytics",
+      "Python",
+      "SQL",
+      "Power BI",
+      "Machine Learning",
+      "Natural Language Processing",
+      "Dialectal Bangla Hate Speech Detection"
+    ],
+    "sameAs": [
+      "https://about.me/M_A_Obaeed",
+      "https://github.com/obaeedma",
+      "https://www.kaggle.com/maobaeed",
+      "https://orcid.org/0009-0006-2672-8085",
+      "https://scholar.google.com/citations?user=0cN48NkAAAAJ&hl=en",
+      "https://medium.com/@swachamaobaeed",
+      "https://unsplash.com/@m_a_obaeed",
+      "https://substack.com/@maobaeed",
+      "https://www.linkedin.com/in/m-a-obaeed-a9a01327b"
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0b101b;
+      --surface: #121a2b;
+      --surface-soft: #182238;
+      --text: #eef2f7;
+      --muted: #a9b5c9;
+      --accent: #38bdf8;
+      --border: rgba(255, 255, 255, 0.1);
+      --max: 960px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: 100%;
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    header.site-header {
+      border-bottom: 1px solid var(--border);
+      background: rgba(11, 16, 27, 0.92);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .nav-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 60px;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--text);
+    }
+
+    nav {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      font-size: 0.92rem;
+    }
+
+    nav a {
+      color: var(--muted);
+    }
+
+    nav a:hover {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .hero {
+      padding: 56px 0 36px;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4.5vw, 2.8rem);
+      line-height: 1.2;
+      margin-bottom: 14px;
+    }
+
+    .lead {
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 760px;
+      margin-bottom: 24px;
+    }
+
+    .cta-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.94rem;
+      border: 1px solid var(--border);
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #07111e;
+      border-color: var(--accent);
+    }
+
+    .btn-secondary {
+      background: var(--surface);
+      color: var(--text);
+    }
+
+    .btn:hover {
+      text-decoration: none;
+      opacity: 0.92;
+    }
+
+    section {
+      padding: 32px 0;
+      border-top: 1px solid var(--border);
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      margin-bottom: 16px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px;
+    }
+
+    .card h3 {
+      font-size: 1.05rem;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .link-card {
+      display: block;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 16px;
+      color: var(--text);
+    }
+
+    .link-card:hover {
+      background: var(--surface-soft);
+      text-decoration: none;
+    }
+
+    .link-card strong {
+      display: block;
+      font-size: 0.98rem;
+      margin-bottom: 2px;
+    }
+
+    .link-card span {
+      color: var(--muted);
+      font-size: 0.85rem;
+      word-break: break-word;
+    }
+
+    ul.clean-list {
+      list-style: none;
+      display: grid;
+      gap: 10px;
+    }
+
+    ul.clean-list li {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 16px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    ul.clean-list strong {
+      color: var(--text);
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 0 40px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="https://obaeedma.github.io/">M A Obaeed</a>
+      <nav aria-label="Primary Navigation">
+        <a href="#work">Research &amp; Projects</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#profiles">Profiles</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" style="border-top: none;">
+      <p class="eyebrow">Dhaka, Bangladesh &bull; BRAC University (CSE)</p>
+      <h1>M A Obaeed</h1>
+      <p class="lead">
+        Computer Science &amp; Engineering student focused on Data Analytics (Python, SQL, Power BI),
+        applied Machine Learning, dialectal Bangla NLP research, software development, public speaking,
+        and exploring all 64 districts of Bangladesh.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://github.com/obaeedma" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="btn btn-secondary" href="https://www.kaggle.com/maobaeed" target="_blank" rel="noopener noreferrer">Kaggle</a>
+        <a class="btn btn-secondary" href="https://www.linkedin.com/in/m-a-obaeed-a9a01327b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </section>
+
+    <section id="work">
+      <h2>Research, Analytics &amp; Projects</h2>
+      <div class="grid-2">
+        <article class="card">
+          <h3>Dialectal Bangla Hate Speech Detection</h3>
+          <p>
+            Undergraduate thesis exploring dialectal Bangla hate speech across regional comments using
+            preprocessing, class weighting for imbalance, and comparative evaluation across CNN, GRU,
+            BiLSTM, SVM, and Logistic Regression.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Air-Quality Data Analysis</h3>
+          <p>
+            Exploratory data analysis and visualization of environmental air-quality observations in Python
+            to uncover trends, regional patterns, and real-world data limitations.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>OfficeKhoj BD</h3>
+          <p>
+            Commercial space and service discovery platform built with React, Node.js, and MongoDB to
+            simplify structured listing and search workflows.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>ReWater</h3>
+          <p>
+            Reusable water-bottle refill management application developed with React, Vite, Node.js, and
+            MongoDB to encourage sustainable refill habits.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="highlights">
+      <h2>Awards, Speaking &amp; Exploration</h2>
+      <ul class="clean-list">
+        <li><strong>The Duke of Edinburgh's International Award:</strong> Bronze Standard Awardee.</li>
+        <li><strong>7th DCSC National Science Exposition:</strong> 1st Place in Science Project Show.</li>
+        <li><strong>NDF BD Victory Day Debate:</strong> 1st Place in Public Speech Debate and tournament adjudicator experience.</li>
+        <li><strong>Speaking &amp; Field Exploration:</strong> Active public speaker, event host, and traveler across all 64 districts of Bangladesh.</li>
+      </ul>
+    </section>
+
+    <section id="profiles">
+      <h2>Verified Profiles &amp; Writing</h2>
+      <div class="grid-3">
+        <a class="link-card" href="https://about.me/M_A_Obaeed" target="_blank" rel="noopener noreferrer">
+          <strong>About.me</strong>
+          <span>about.me/M_A_Obaeed</span>
+        </a>
+        <a class="link-card" href="https://github.com/obaeedma" target="_blank" rel="noopener noreferrer">
+          <strong>GitHub</strong>
+          <span>github.com/obaeedma</span>
+        </a>
+        <a class="link-card" href="https://www.kaggle.com/maobaeed" target="_blank" rel="noopener noreferrer">
+          <strong>Kaggle</strong>
+          <span>kaggle.com/maobaeed</span>
+        </a>
+        <a class="link-card" href="https://orcid.org/0009-0006-2672-8085" target="_blank" rel="noopener noreferrer">
+          <strong>ORCID</strong>
+          <span>orcid.org/0009-0006-2672-8085</span>
+        </a>
+        <a class="link-card" href="https://scholar.google.com/citations?user=0cN48NkAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">
+          <strong>Google Scholar</strong>
+          <span>Citations &amp; Academic Profile</span>
+        </a>
+        <a class="link-card" href="https://medium.com/@swachamaobaeed" target="_blank" rel="noopener noreferrer">
+          <strong>Medium</strong>
+          <span>medium.com/@swachamaobaeed</span>
+        </a>
+        <a class="link-card" href="https://substack.com/@maobaeed" target="_blank" rel="noopener noreferrer">
+          <strong>Substack</strong>
+          <span>substack.com/@maobaeed</span>
+        </a>
+        <a class="link-card" href="https://unsplash.com/@m_a_obaeed" target="_blank" rel="noopener noreferrer">
+          <strong>Unsplash</strong>
+          <span>unsplash.com/@m_a_obaeed</span>
+        </a>
+        <a class="link-card" href="https://www.linkedin.com/in/m-a-obaeed-a9a01327b" target="_blank" rel="noopener noreferrer">
+          <strong>LinkedIn</strong>
+          <span>linkedin.com/in/m-a-obaeed-a9a01327b</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; M A Obaeed &bull; https://obaeedma.github.io</p>
+    </div>
+  </footer>
+</body>
+</html>
