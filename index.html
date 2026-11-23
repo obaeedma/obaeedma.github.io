@@ -21,6 +21,7 @@ Ctrl+F দিয়ে EDIT: খুঁজলে সম্পাদনার জ�
       content="M A Obaeed — data analyst and team leader from BRAC University CSE. Leads project teams and clubs, builds with Python, SQL and Power BI, and researches dialectal Bangla NLP."
     />
     <meta name="author" content="M A Obaeed" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
     <link rel="canonical" href="https://obaeedma.github.io/" />
     <meta property="og:type" content="profile" />
     <meta property="og:title" content="M A Obaeed — Data Analyst &amp; Leader" />
@@ -29,7 +30,13 @@ Ctrl+F দিয়ে EDIT: খুঁজলে সম্পাদনার জ�
       content="Data analytics, team leadership, applied machine learning and dialectal Bangla NLP research. CSE, BRAC University."
     />
     <meta property="og:url" content="https://obaeedma.github.io/" />
+    <meta property="og:site_name" content="M A Obaeed" />
+    <meta property="og:image" content="https://obaeedma.github.io/photos/optimized/travel/portraits/portrait.960.webp" />
+    <meta property="og:image:alt" content="M A Obaeed in a blue suit outdoors" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="M A Obaeed — Data Analyst &amp; Leader" />
+    <meta name="twitter:description" content="Data analytics, team leadership and Bangla NLP research by M A Obaeed, BRAC University CSE." />
+    <meta name="twitter:image" content="https://obaeedma.github.io/photos/optimized/travel/portraits/portrait.960.webp" />
     <meta name="theme-color" content="#f7f4ee" />
     <!-- EDIT: FAVICON — ব্রাউজার ট্যাবে M A Obaeed-এর নিজস্ব MO মনোগ্রাম দেখায়। -->
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
@@ -43,8 +50,27 @@ Ctrl+F দিয়ে EDIT: খুঁজলে সম্পাদনার জ�
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
+        "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://obaeedma.github.io/#website",
+          "url": "https://obaeedma.github.io/",
+          "name": "M A Obaeed",
+          "publisher": { "@id": "https://obaeedma.github.io/#person" }
+        },
+        {
+          "@type": "ProfilePage",
+          "@id": "https://obaeedma.github.io/#profile",
+          "url": "https://obaeedma.github.io/",
+          "name": "M A Obaeed — Data Analyst & Leader",
+          "isPartOf": { "@id": "https://obaeedma.github.io/#website" },
+          "mainEntity": { "@id": "https://obaeedma.github.io/#person" }
+        },
+        {
         "@type": "Person",
+        "@id": "https://obaeedma.github.io/#person",
         "name": "M A Obaeed",
+        "image": "https://obaeedma.github.io/photos/optimized/travel/portraits/portrait.960.webp",
         "jobTitle": "Data Analyst & Team Leader",
         "url": "https://obaeedma.github.io/",
         "email": "mailto:swachamaobaeed@gmail.com",
@@ -73,6 +99,8 @@ Ctrl+F দিয়ে EDIT: খুঁজলে সম্পাদনার জ�
           "https://substack.com/@maobaeed",
           "https://unsplash.com/@m_a_obaeed",
           "https://about.me/M_A_Obaeed"
+        ]
+        }
         ]
       }
     </script>
